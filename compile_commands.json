@@ -1,7 +1,77 @@
 [
 {
-  "directory": "/home/dincio/code/ready/CMakeSFML/build",
-  "command": "/usr/bin/c++   -I/home/dincio/code/ready/CMakeSFML/include -isystem /usr/local/include    -Werror -std=gnu++1z -o CMakeFiles/Proj.dir/src/main.cpp.o -c /home/dincio/code/ready/CMakeSFML/src/main.cpp",
-  "file": "/home/dincio/code/ready/CMakeSFML/src/main.cpp"
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/Handler.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/Handler.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/Handler.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/MediaProvider.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/MediaProvider.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/MediaProvider.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/animation/Animation.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/animation/Animation.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/animation/Animation.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/animation/AnimationHandler.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/animation/AnimationHandler.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/animation/AnimationHandler.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/Bar.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/Bar.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/Bar.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/Button.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/Button.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/Button.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/ButtonFunctions.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/ButtonFunctions.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/ButtonFunctions.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/Container.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/Container.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/Container.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/Interface.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/Interface.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/Interface.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/PictureBox.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/PictureBox.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/PictureBox.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/TextBox.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/TextBox.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/TextBox.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/TransBox.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/TransBox.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/TransBox.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/interface/globals.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/interface/globals.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/interface/globals.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/grappa/utils.cpp.o -c /home/dincio/code/ready/GrappaTest/src/grappa/utils.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/grappa/utils.cpp"
+},
+{
+  "directory": "/home/dincio/code/ready/GrappaTest/build",
+  "command": "/usr/bin/c++   -I/home/dincio/code/ready/GrappaTest/src -isystem /usr/local/include    -Wall -std=gnu++1z -o CMakeFiles/Proj.dir/src/main.cpp.o -c /home/dincio/code/ready/GrappaTest/src/main.cpp",
+  "file": "/home/dincio/code/ready/GrappaTest/src/main.cpp"
 }
 ]

@@ -4,18 +4,23 @@ project(Proj VERSION 1.0.0 LANGUAGES CXX)
 
 # load packages
 find_package(SFML 2.5 COMPONENTS graphics REQUIRED)
+find_package(Boost 1.55 COMPONENTS filesystem REQUIRED)
 
 # create target executable
-add_executable(Proj src/main.cpp)
+file(GLOB_RECURSE PROJECT_SOURCES 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/**/*.cpp
+)
+add_executable(Proj ${PROJECT_SOURCES})
 
 # include directories
 target_include_directories(Proj
     PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 # compiler properties
-target_compile_options(Proj PRIVATE -Werror)
+target_compile_options(Proj PRIVATE -Wall)
 target_compile_features(Proj PRIVATE cxx_std_17)
 
 # export compilation database for YCM
@@ -24,6 +29,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # link libraries
 target_link_libraries(Proj
     PRIVATE
+        Boost::boost # for optional
+        Boost::filesystem
         sfml-graphics
 )
 

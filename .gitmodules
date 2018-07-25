@@ -1,0 +1,3 @@
+[submodule "src/grappa"]
+	path = src/grappa
+	url = http://github.com/Bietola/Grappa
